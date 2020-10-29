@@ -1,6 +1,12 @@
-// import using require
-
 // declare class
 
-
-// export class using module.exports
+// export class
+class Shape {
+  color = null;
+  constructor(color) {
+    this.color = color;
+  }
+  drawShape = function () {};
+  calculateArea = function () {};
+}
+export default Shape;
