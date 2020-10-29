@@ -1,12 +1,12 @@
-// import
-
 // declare class
 
-import Shape from "./shape";
-class Circle extends Shape {
+// export class
+class Shape {
+  color = null;
   constructor(color) {
-    super(color);
+    this.color = color;
   }
+  drawShape = function () {};
   calculateArea = function () {};
 }
-export default Circle;
+export default Shape;
