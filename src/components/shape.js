@@ -2,11 +2,14 @@
 
 // export class
 class Shape {
-  color = null;
-  constructor(color) {
-    this.color = color;
+  constructor() {
+    this.color = "red";
   }
-  drawShape = function () {};
-  calculateArea = function () {};
+  drawShape() {
+    console.log("Drawing a shape");
+  }
+  calculateArea() {
+    console.log("don't know area of unknow shape");
+  }
 }
 export default Shape;

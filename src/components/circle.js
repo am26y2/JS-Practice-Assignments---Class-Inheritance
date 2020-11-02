@@ -4,9 +4,11 @@
 
 import Shape from "./shape";
 class Circle extends Shape {
-  constructor(color) {
-    super(color);
+  constructor() {
+    super();
   }
-  calculateArea = function () {};
+  calculateArea() {
+    console.log("Area od cirle");
+  }
 }
 export default Circle;
